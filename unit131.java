@@ -1,5 +1,6 @@
 //program to illustrate creation of threads using runnable class
 //Thread.sleep(time)
+// runnable
 import java.io.*;
 class IntThread implements Runnable/// new class 
 {
@@ -8,6 +9,8 @@ IntThread()// Inthread is class
 {
 t = new Thread ( this, "Test thread");// t is object 
 System.out.println (" Child thread :" + t);// print "child thread"
+System.out.println(t);
+System.out.println(this);
 t.start();
 }
 public void run()// create method run()

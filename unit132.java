@@ -33,10 +33,10 @@ public static void main(String args[])
 {
 new MyThread();
 try {
-for ( int k = 5; k < 0; k--)
+for ( int k = 5; k > 0; k--)
 {
 System.out.println ("Running main thread :" + k);
-Thread.sleep(1000);
+Thread.sleep(500);
 }
 }catch (InterruptedException e) { }
 System.out.println ("Exiting main thread . . .");
