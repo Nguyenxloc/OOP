@@ -1,2 +1,1 @@
-# legendary-broccoli
-oop
+Self pratice about JAVA OOP
